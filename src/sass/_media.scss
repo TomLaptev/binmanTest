@@ -1,0 +1,85 @@
+/* // Display size 
+ $hld: 1920/100; //Hyper Large Devices, Wide Screens
+$sld: 1600/100; //Super Large Devices, Wide Screens
+$ld: 1280/100; //Large Devices, Wide Screens
+$md: 1024/100; //Medium Devices, Desktop
+$sd: 767/100; //Small Devices, Tablets
+$ssd: 600/100; //Super Small Devices, Tablets
+$esd: 480/100; // ExtraSmall Devices, Phones
+$custom: 320/100; //Custom, IPhone Retina */
+
+
+/*  Super Large Devices, Wide Screens */
+@media screen and (max-width: 1600px) {}
+/*  User Screens */
+@media screen and (max-width: 1450px) {
+  .row-member {
+    //border: solid 1px blue;
+   flex-direction: column;
+   align-items: flex-start;
+  }
+
+}
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1280px) {
+  .titlesRow {
+    &__names {
+      width: 28%;
+      padding: 15px 20px;
+    }
+  
+    &__phones {
+      width: 24%;
+      padding: 10px ;
+    }
+  
+    &__mails {
+      width: 20%;
+      padding: 10px;
+    }
+  
+    &__ratings {      width: 27%;
+      padding: 10px;
+    }
+  }
+
+    .member-applicant{
+    width: 28%;
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+  
+  .member-phone {
+    width: 24%;
+   padding-left: 10px;
+   padding-right: 0px;
+  }
+  
+  .member-mail {
+    width: 20%;
+   padding-right: 0px; 
+  }
+  
+  .member-rating {
+    width: 15%;
+  }
+  .member-icons {
+    width: 13%;
+  }
+}
+@media screen and (max-width: 1200px) {}
+/* Medium Devices, Desktop */
+@media screen and (max-width: 1024px) {}
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {}
+
+/* Super Small Devices, Tablets */  
+@media screen and (max-width: 600px) {}
+
+/* ExtraSmall Devices, Phones */
+@media screen and (max-width : 480px) {}
+
+/* Custom, IPhone Retina */
+@media screen and (max-width: 320px) {}
+
+// Всегда в конце
